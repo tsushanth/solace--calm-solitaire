@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#0B6E4F</color>
+    <color name="window_background">#FF07281D</color>
+    <string name="action_auto_complete">Auto Complete</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_clear_stats">Clear Statistics</string>
+    <string name="action_close">Close</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_new_game">New Game</string>
+    <string name="action_play_again">Play Again</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_statistics">Statistics</string>
+    <string name="action_undo">Undo</string>
+    <string name="app_name">Solace: Calm Solitaire</string>
+    <string name="cd_close">Close</string>
+    <string name="cd_double_tap_to_foundation">Double tap to move to a foundation</string>
+    <string name="cd_felt_theme_option">%1$s felt</string>
+    <string name="cd_foundation_empty">Empty foundation pile for %1$s</string>
+    <string name="cd_locked_premium">Locked, requires premium</string>
+    <string name="cd_stock_pile_empty">Stock empty. Double tap to reset from the waste pile.</string>
+    <string name="cd_stock_pile_filled">Stock, %1$d card(s) remaining. Double tap to draw.</string>
+    <string name="cd_tableau_empty">Empty tableau pile</string>
+    <string name="cd_waste_pile_empty">Waste pile, empty</string>
+    <string name="dialog_clear_stats_message">This cannot be undone.</string>
+    <string name="dialog_clear_stats_title">Clear all statistics?</string>
+    <string name="dialog_new_game_message">Your current progress will be lost.</string>
+    <string name="dialog_new_game_title">Start a new game?</string>
+    <string name="legal_privacy_url" translatable="false">https://example.com/solace-calm-solitaire/privacy</string>
+    <string name="legal_terms_url" translatable="false">https://example.com/solace-calm-solitaire/terms</string>
+    <string name="paywall_connecting">Connecting to Google Play…</string>
+    <string name="settings_auto_complete">Auto-complete when possible</string>
+    <string name="settings_draw_count">Draw Count</string>
+    <string name="settings_draw_one">Draw 1</string>
+    <string name="settings_draw_three">Draw 3</string>
+    <string name="settings_dynamic_color">Use wallpaper colors (Material You)</string>
+    <string name="settings_felt_theme">Table Felt</string>
+    <string name="settings_haptics">Vibration</string>
+    <string name="settings_sound">Sound effects</string>
+    <string name="settings_title">Settings</string>
+    <string name="stat_moves">Moves</string>
+    <string name="stat_score">Score</string>
+    <string name="stat_time">Time</string>
+    <string name="stats_best_score">Best score</string>
+    <string name="stats_best_streak">Best streak</string>
+    <string name="stats_best_time">Best time</string>
+    <string name="stats_current_streak">Current streak</string>
+    <string name="stats_games_played">Games played</string>
+    <string name="stats_games_won">Games won</string>
+    <string name="stats_locked_advanced">Best time, best score &amp; streaks</string>
+    <string name="stats_no_data">Play a game to see your stats here.</string>
+    <string name="stats_title">Statistics</string>
+    <string name="stats_win_percentage">Win rate</string>
+    <string name="win_message">Solved in %1$d moves — %2$s</string>
+    <string name="win_score">Final score: %1$d</string>
+    <string name="win_title">You Won!</string>
+    <style name="Theme.SolaceCalmSolitaire" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:statusBarColor">@color/window_background</item>
+        <item name="android:navigationBarColor">@color/window_background</item>
+    </style>
+    <style name="Theme.SolaceCalmSolitaire.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/window_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.SolaceCalmSolitaire</item>
+    </style>
+</resources>

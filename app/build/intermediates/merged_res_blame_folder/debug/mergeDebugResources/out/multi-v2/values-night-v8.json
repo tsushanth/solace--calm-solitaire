@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.factory.solacecalmsolitaire.app-mergeDebugResources-63:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/95ab6933fc59d9bfce90a8732c579e3d/transformed/core-splashscreen-1.0.1/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "85",
+                        "endOffsets": "136"
+                    }
+                }
+            ]
+        }
+    ]
+}

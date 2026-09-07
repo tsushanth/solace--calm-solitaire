@@ -1,0 +1,240 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.factory.solacecalmsolitaire"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="com.android.vending.BILLING" />
+13-->[com.android.billingclient:billing-ktx:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/d16151359c9025d602dab12f7c06054a/transformed/billing-ktx-7.1.1/AndroidManifest.xml:9:5-67
+13-->[com.android.billingclient:billing-ktx:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/d16151359c9025d602dab12f7c06054a/transformed/billing-ktx-7.1.1/AndroidManifest.xml:9:22-64
+14
+15    <queries>
+15-->[com.android.billingclient:billing:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/38f34314c70f03831359a7ea5431131b/transformed/billing-7.1.1/AndroidManifest.xml:12:5-19:15
+16        <intent>
+16-->[com.android.billingclient:billing:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/38f34314c70f03831359a7ea5431131b/transformed/billing-7.1.1/AndroidManifest.xml:13:9-15:18
+17            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+17-->[com.android.billingclient:billing:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/38f34314c70f03831359a7ea5431131b/transformed/billing-7.1.1/AndroidManifest.xml:14:13-91
+17-->[com.android.billingclient:billing:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/38f34314c70f03831359a7ea5431131b/transformed/billing-7.1.1/AndroidManifest.xml:14:21-88
+18        </intent>
+19        <intent>
+19-->[com.android.billingclient:billing:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/38f34314c70f03831359a7ea5431131b/transformed/billing-7.1.1/AndroidManifest.xml:16:9-18:18
+20            <action android:name="com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND" />
+20-->[com.android.billingclient:billing:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/38f34314c70f03831359a7ea5431131b/transformed/billing-7.1.1/AndroidManifest.xml:17:13-116
+20-->[com.android.billingclient:billing:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/38f34314c70f03831359a7ea5431131b/transformed/billing-7.1.1/AndroidManifest.xml:17:21-113
+21        </intent>
+22    </queries>
+23
+24    <permission
+24-->[androidx.core:core:1.13.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/41e55779080205c16cdc04971753f8d0/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+25        android:name="com.factory.solacecalmsolitaire.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.13.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/41e55779080205c16cdc04971753f8d0/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.13.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/41e55779080205c16cdc04971753f8d0/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="com.factory.solacecalmsolitaire.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.13.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/41e55779080205c16cdc04971753f8d0/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.13.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/41e55779080205c16cdc04971753f8d0/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+29
+30    <application
+30-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:7:5-27:19
+31        android:name="com.factory.solacecalmsolitaire.SolaceApplication"
+31-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:8:9-42
+32        android:allowBackup="true"
+32-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:9:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.13.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/41e55779080205c16cdc04971753f8d0/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+34        android:dataExtractionRules="@xml/data_extraction_rules"
+34-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:10:9-65
+35        android:extractNativeLibs="false"
+36        android:fullBackupContent="@xml/backup_rules"
+36-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:11:9-54
+37        android:icon="@mipmap/ic_launcher"
+37-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:12:9-43
+38        android:label="@string/app_name"
+38-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:13:9-41
+39        android:roundIcon="@mipmap/ic_launcher"
+39-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:14:9-48
+40        android:supportsRtl="true"
+40-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:15:9-35
+41        android:theme="@style/Theme.SolaceCalmSolitaire" >
+41-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:16:9-57
+42        <activity
+42-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:17:9-26:20
+43            android:name="com.factory.solacecalmsolitaire.MainActivity"
+43-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:18:13-41
+44            android:exported="true"
+44-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:19:13-36
+45            android:screenOrientation="portrait"
+45-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:20:13-49
+46            android:theme="@style/Theme.SolaceCalmSolitaire.Splash" >
+46-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:21:13-68
+47            <intent-filter>
+47-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:22:13-25:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:23:17-69
+48-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:23:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:24:17-77
+50-->/Users/sushanthtiruvaipati/Documents/AndroidApps/Solace: Calm Solitaire/app/src/main/AndroidManifest.xml:24:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <meta-data
+54-->[com.android.billingclient:billing:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/38f34314c70f03831359a7ea5431131b/transformed/billing-7.1.1/AndroidManifest.xml:22:9-24:37
+55            android:name="com.google.android.play.billingclient.version"
+55-->[com.android.billingclient:billing:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/38f34314c70f03831359a7ea5431131b/transformed/billing-7.1.1/AndroidManifest.xml:23:13-73
+56            android:value="7.1.1" />
+56-->[com.android.billingclient:billing:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/38f34314c70f03831359a7ea5431131b/transformed/billing-7.1.1/AndroidManifest.xml:24:13-34
+57
+58        <activity
+58-->[com.android.billingclient:billing:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/38f34314c70f03831359a7ea5431131b/transformed/billing-7.1.1/AndroidManifest.xml:26:9-30:75
+59            android:name="com.android.billingclient.api.ProxyBillingActivity"
+59-->[com.android.billingclient:billing:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/38f34314c70f03831359a7ea5431131b/transformed/billing-7.1.1/AndroidManifest.xml:27:13-78
+60            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+60-->[com.android.billingclient:billing:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/38f34314c70f03831359a7ea5431131b/transformed/billing-7.1.1/AndroidManifest.xml:28:13-96
+61            android:exported="false"
+61-->[com.android.billingclient:billing:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/38f34314c70f03831359a7ea5431131b/transformed/billing-7.1.1/AndroidManifest.xml:29:13-37
+62            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+62-->[com.android.billingclient:billing:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/38f34314c70f03831359a7ea5431131b/transformed/billing-7.1.1/AndroidManifest.xml:30:13-72
+63        <activity
+63-->[com.android.billingclient:billing:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/38f34314c70f03831359a7ea5431131b/transformed/billing-7.1.1/AndroidManifest.xml:31:9-35:75
+64            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
+64-->[com.android.billingclient:billing:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/38f34314c70f03831359a7ea5431131b/transformed/billing-7.1.1/AndroidManifest.xml:32:13-80
+65            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+65-->[com.android.billingclient:billing:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/38f34314c70f03831359a7ea5431131b/transformed/billing-7.1.1/AndroidManifest.xml:33:13-96
+66            android:exported="false"
+66-->[com.android.billingclient:billing:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/38f34314c70f03831359a7ea5431131b/transformed/billing-7.1.1/AndroidManifest.xml:34:13-37
+67            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+67-->[com.android.billingclient:billing:7.1.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/38f34314c70f03831359a7ea5431131b/transformed/billing-7.1.1/AndroidManifest.xml:35:13-72
+68        <activity
+68-->[com.google.android.gms:play-services-base:18.5.0] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/ea8a1fc43d1b234b7d4da1c813f63377/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+69            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+69-->[com.google.android.gms:play-services-base:18.5.0] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/ea8a1fc43d1b234b7d4da1c813f63377/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-base:18.5.0] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/ea8a1fc43d1b234b7d4da1c813f63377/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.android.gms:play-services-base:18.5.0] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/ea8a1fc43d1b234b7d4da1c813f63377/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+72
+73        <meta-data
+73-->[com.google.android.gms:play-services-basement:18.4.0] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/0710801c296fc20e420cb4ba354fdd72/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+74            android:name="com.google.android.gms.version"
+74-->[com.google.android.gms:play-services-basement:18.4.0] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/0710801c296fc20e420cb4ba354fdd72/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+75            android:value="@integer/google_play_services_version" />
+75-->[com.google.android.gms:play-services-basement:18.4.0] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/0710801c296fc20e420cb4ba354fdd72/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+76
+77        <provider
+77-->[androidx.emoji2:emoji2:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/4df63b831297d5ea54a0e9e0bfa873f2/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+78            android:name="androidx.startup.InitializationProvider"
+78-->[androidx.emoji2:emoji2:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/4df63b831297d5ea54a0e9e0bfa873f2/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+79            android:authorities="com.factory.solacecalmsolitaire.androidx-startup"
+79-->[androidx.emoji2:emoji2:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/4df63b831297d5ea54a0e9e0bfa873f2/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+80            android:exported="false" >
+80-->[androidx.emoji2:emoji2:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/4df63b831297d5ea54a0e9e0bfa873f2/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+81            <meta-data
+81-->[androidx.emoji2:emoji2:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/4df63b831297d5ea54a0e9e0bfa873f2/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+82                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+82-->[androidx.emoji2:emoji2:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/4df63b831297d5ea54a0e9e0bfa873f2/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+83                android:value="androidx.startup" />
+83-->[androidx.emoji2:emoji2:1.3.0] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/4df63b831297d5ea54a0e9e0bfa873f2/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+84            <meta-data
+84-->[androidx.lifecycle:lifecycle-process:2.8.3] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/76b50300453c1126a1761b630ba0490c/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:29:13-31:52
+85                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+85-->[androidx.lifecycle:lifecycle-process:2.8.3] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/76b50300453c1126a1761b630ba0490c/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:30:17-78
+86                android:value="androidx.startup" />
+86-->[androidx.lifecycle:lifecycle-process:2.8.3] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/76b50300453c1126a1761b630ba0490c/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:31:17-49
+87            <meta-data
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/3f262dc14def9ad4e873ee6fb214681f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/3f262dc14def9ad4e873ee6fb214681f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+89                android:value="androidx.startup" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/3f262dc14def9ad4e873ee6fb214681f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+90        </provider>
+91
+92        <service
+92-->[androidx.room:room-runtime:2.6.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/184a73f112310a8b574815bd4718e9df/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+93            android:name="androidx.room.MultiInstanceInvalidationService"
+93-->[androidx.room:room-runtime:2.6.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/184a73f112310a8b574815bd4718e9df/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+94            android:directBootAware="true"
+94-->[androidx.room:room-runtime:2.6.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/184a73f112310a8b574815bd4718e9df/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+95            android:exported="false" />
+95-->[androidx.room:room-runtime:2.6.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/184a73f112310a8b574815bd4718e9df/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+96        <service
+96-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/d459ea12650053f47d5fbd7268465969/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+97            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+97-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/d459ea12650053f47d5fbd7268465969/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+98            android:exported="false" >
+98-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/d459ea12650053f47d5fbd7268465969/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+99            <meta-data
+99-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/d459ea12650053f47d5fbd7268465969/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+100                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+100-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/d459ea12650053f47d5fbd7268465969/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+101                android:value="cct" />
+101-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/d459ea12650053f47d5fbd7268465969/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+102        </service>
+103        <service
+103-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/5c47578e44824931e00c064f0a616573/transformed/transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+104            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+104-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/5c47578e44824931e00c064f0a616573/transformed/transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+105            android:exported="false"
+105-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/5c47578e44824931e00c064f0a616573/transformed/transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+106            android:permission="android.permission.BIND_JOB_SERVICE" >
+106-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/5c47578e44824931e00c064f0a616573/transformed/transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+107        </service>
+108
+109        <receiver
+109-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/5c47578e44824931e00c064f0a616573/transformed/transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+110            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+110-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/5c47578e44824931e00c064f0a616573/transformed/transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+111            android:exported="false" />
+111-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/5c47578e44824931e00c064f0a616573/transformed/transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+112        <receiver
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/3f262dc14def9ad4e873ee6fb214681f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+113            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/3f262dc14def9ad4e873ee6fb214681f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+114            android:directBootAware="false"
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/3f262dc14def9ad4e873ee6fb214681f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+115            android:enabled="true"
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/3f262dc14def9ad4e873ee6fb214681f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+116            android:exported="true"
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/3f262dc14def9ad4e873ee6fb214681f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+117            android:permission="android.permission.DUMP" >
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/3f262dc14def9ad4e873ee6fb214681f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/3f262dc14def9ad4e873ee6fb214681f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+119                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/3f262dc14def9ad4e873ee6fb214681f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/3f262dc14def9ad4e873ee6fb214681f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+120            </intent-filter>
+121            <intent-filter>
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/3f262dc14def9ad4e873ee6fb214681f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+122                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/3f262dc14def9ad4e873ee6fb214681f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/3f262dc14def9ad4e873ee6fb214681f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+123            </intent-filter>
+124            <intent-filter>
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/3f262dc14def9ad4e873ee6fb214681f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+125                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/3f262dc14def9ad4e873ee6fb214681f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/3f262dc14def9ad4e873ee6fb214681f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+126            </intent-filter>
+127            <intent-filter>
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/3f262dc14def9ad4e873ee6fb214681f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+128                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/3f262dc14def9ad4e873ee6fb214681f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/3f262dc14def9ad4e873ee6fb214681f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+129            </intent-filter>
+130        </receiver>
+131    </application>
+132
+133</manifest>

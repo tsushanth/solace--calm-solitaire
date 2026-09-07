@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.factory.solacecalmsolitaire.app-mergeDebugResources-63:/values-v29/values-v29.xml",
+            "map": [
+                {
+                    "source": "/Users/sushanthtiruvaipati/.gradle/caches/8.9/transforms/95ab6933fc59d9bfce90a8732c579e3d/transformed/core-splashscreen-1.0.1/res/values-v29/values-v29.xml",
+                    "from": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,374",
+                        "endLines": "6,8",
+                        "endColumns": "12,12",
+                        "endOffsets": "369,464"
+                    }
+                }
+            ]
+        }
+    ]
+}
